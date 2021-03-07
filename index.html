@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osnovne racunarske operacije</title>
+</head>
+<body>
+    <script>
+
+    var rezultat;
+    var a = parseFloat(prompt("Unesite broj: "));
+    var operator = prompt("Izaberite operaciju odabirom karaktera  + ,  - ,  * ,  /  : ");
+    switch(operator){
+        case "+":
+        var b = parseFloat(prompt("Unesite broj koji zelite da saberete: "));    
+        rezultat = a + b;
+        alert("Rezultat: " + rezultat);
+        break;
+        case "-":
+        var b = parseFloat(prompt("Unesite broj koji zelite da oduzmete: "));    
+        rezultat = a - b;
+        alert("Rezultat: " + rezultat);
+        break;
+        case "*":
+        var b = parseFloat(prompt("Unesite broj sa kojim zelite da pomnozite: "));    
+        rezultat = a * b;
+        alert("Rezultat: " + rezultat);
+        break;
+        case "/":
+        var b = parseFloat(prompt("Unesite broj sa kojim zelite da podelite: ")); 
+        rezultat = a / b;
+        alert("Rezultat: " + rezultat);  
+        break;
+        default:
+        alert("Morate izabrati nesto od ponudjenog, pokusajte ponovo!");
+        break;
+    }
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
